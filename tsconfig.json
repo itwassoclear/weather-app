@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+      "module": "ESNext",
+      "baseUrl": ".",
+      "moduleResolution": "Node",
+      "target": "ESNext",
+      "jsx": "react",
+      "skipLibCheck": true,
+      "skipDefaultLibCheck": true,
+      "allowSyntheticDefaultImports": true,
+      "sourceMap": true,
+      "importHelpers": true,
+      "noEmitHelpers": true,
+      "esModuleInterop": true,
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+      "resolveJsonModule": true,
+      "noEmitOnError": false,
+      "preserveConstEnums": true,
+      "downlevelIteration": true,
+      "importsNotUsedAsValues": "remove",
+      "strict": true,
+      "noImplicitAny": true,
+      "strictNullChecks": true,
+      "strictFunctionTypes": true,
+      "strictPropertyInitialization": true,
+      "noImplicitThis": true,
+      "alwaysStrict": true,
+      "noUnusedLocals": true,
+      "noUnusedParameters": true,
+      "noImplicitReturns": true,
+      "noFallthroughCasesInSwitch": true,
+      "removeComments": false,
+      "newLine": "LF"
+  },
+  "ts-node": {
+      "transpileOnly": true
+  }
+}
